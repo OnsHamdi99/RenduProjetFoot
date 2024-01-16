@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae753e42-6afb-4ae1-9e9a-ccc9abaca243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MatchService/src/main/java/com/MatchServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MatchService/src/main/java/com/beans/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MatchService/src/main/java/com/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MatchService/src/main/java/com/controller/MatchServiceControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MatchService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/src/main/java/com/PlayerServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/src/main/java/com/beans/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/src/main/java/com/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/src/main/java/com/controller/PlayerServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/StatsServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/Stats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/StatsServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamService/src/main/java/com/RibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamService/src/main/java/com/TeamServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamService/src/main/java/com/beans/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamService/src/main/java/com/controller/TeamServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo/demo/src/main/java/com/example/demo/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo2/demo2/src/main/java/com/example/demo/controller/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/Capture d’écran 2021-01-22 144226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/Capture d’écran 2021-01-25 141544.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/Capture d’écran 2021-01-27 102622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/Marc_DECALLONNE_Projet_L3_MIAGE-Enonce.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/Mcd café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/NPS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/TP11-Exo1-Differentes_solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/TP11_Exo_1_Solution_1&amp;2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/TP11_Exo_1_Solution_3&amp;4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/TP11_Exo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/devoirs semaine 1 février.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/evaluation attrakdiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exemple_persona.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exepmle_calendrier_projet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exercice machine à café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exo6_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exo6q1_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exo8_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/exo8q2_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/image1_1_1_eyrc1m.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/ldpa café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/mvo historique café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/nps q1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/q1 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/q2 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/q3 café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/rgpd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite 2 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite 3 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite 4 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite 5 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite 6 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/suite exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp12_attractdif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp12_exo1_q4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp12q2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp12q3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/tp13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/AFSI/téléchargement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-01-25 224447.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-01-25 224605.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-01-25 224802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-01-25 225032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-01-25 225107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Capture d’écran 2021-02-02 100113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/Projet_TestFX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/TestFX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/commande.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/util/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/util/class-use/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Bookmakers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/BookmakersMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitionObserver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Journalist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Bookmakers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/BookmakersMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitionObserver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Journalist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/member-search-index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/util/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/util/class-use/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Bookmakers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/BookmakersMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Competition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/CompetitionObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Competitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Journalist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/League.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MainRandomLeague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MainRandomTournament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterQuatre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterQuatreMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterTrois.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterTroisMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/MatchAleatoire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/NotPowerOfTwoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition/Tournament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition_V1.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition_V2.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/competition_V3.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/src/util/MapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/CompetitionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/CompetitorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/LeagueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterQuatreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterTroisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/MatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/ouaichouche_hamdi_projet_coo-master/test/competition/TournamentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/GL/rendu_Sujet3_Ons_HAMDI_Groupe_A2.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/PremièrePhoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/deuxième photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/logo_udl_blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/pasted image 0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/unnamed (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/Projet_gl/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/droit.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/droit/2020_RGPD.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/droit/Notions initiation au droit.docx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/droit/droit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/droit/iaas-paas-saas-diagram5.1-1638x1046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/jsfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/projects/Project_one" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/rock-paper-scissors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2020 S6/starship_js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_nx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_ny.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_nz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_py.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/cubemap/_pz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/hmap1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/ocean.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/assets/images/waterbump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/js/Monster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJSProject/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/BabylonJS_course" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/MovingCarBabylonJS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../3DGame/TrashMan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/Capture d’écran 2021-01-22 144226.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/Capture d’écran 2021-01-25 141544.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/Capture d’écran 2021-01-27 102622.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/Marc_DECALLONNE_Projet_L3_MIAGE-Enonce.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/Mcd café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/NPS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/TP11-Exo1-Differentes_solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/TP11_Exo_1_Solution_1&amp;2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/TP11_Exo_1_Solution_3&amp;4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/TP11_Exo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/US.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/devoirs semaine 1 février.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/evaluation attrakdiff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exemple_persona.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exepmle_calendrier_projet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exercice machine à café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exo6_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exo6q1_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exo8_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/exo8q2_tp11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/image1_1_1_eyrc1m.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/ldpa café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/mvo historique café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/nps q1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/credits.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/esmap-v01/import.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/esmap-v01/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/image/e_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/image/ex1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/image/ex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/image/ex3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/loginPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/phptest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/pageContact/style/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/persona_incomplé.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/q1 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/q2 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/q3 café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/rgpd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite 2 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite 3 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite 4 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite 5 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite 6 exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/suite exo café.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp12_attractdif.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp12_exo1_q4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp12q2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp12q3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/tp13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AFSI/téléchargement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Atom.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BDD/modele_relationnel.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BPMN DM2.bpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BPMN DM2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Bizagi Modeler.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Capture d’écran 2021-03-27 124328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Capture d’écran 2021-04-06 110218.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Capture d’écran 2021-04-07 091706.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Devserver 17.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Discord.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Discord.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Eclipse IDE for Java Developers - 2020-12.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Eclipse IDE for Java Developers - 2021-09.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-01-25 224447.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-01-25 224605.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-01-25 224802.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-01-25 225032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-01-25 225107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Capture d’écran 2021-02-02 100113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/Projet_TestFX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/TestFX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/commande.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/UML__Competitions_Sportives_V3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/class-use/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/competition/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/util/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/util/class-use/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/bin/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Bookmakers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/BookmakersMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitionObserver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Journalist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Bookmakers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/BookmakersMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Competition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitionObserver.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Competitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/CompetitorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Journalist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/League.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/LeagueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MainRandomLeague.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MainRandomTournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Master.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatre.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatreMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterQuatreTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTrois.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTroisMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MasterTroisTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Match.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MatchAleatoire.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/MatchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/NotPowerOfTwoException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/Tournament.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/class-use/TournamentTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/competition/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/member-search-index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script-dir/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/util/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/util/class-use/MapUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/doc/util/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Bookmakers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/BookmakersMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Competition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/CompetitionObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Competitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Journalist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/League.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MainRandomLeague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MainRandomTournament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterQuatre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterQuatreMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterTrois.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MasterTroisMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/MatchAleatoire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/NotPowerOfTwoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition/Tournament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition_V1.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition_V2.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/competition_V3.ucls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/src/util/MapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/CompetitionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/CompetitorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/LeagueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterQuatreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/MasterTroisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/MatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/ouaichouche_hamdi_projet_coo-master/test/competition/TournamentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GL/rendu_Sujet3_Ons_HAMDI_Groupe_A2.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GLTP1/GL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GitHub Desktop.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question1/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question1/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question1/js/testRequestDavinCi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question1/misc/testRequest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question2/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question2/js/testRequestGPT3-5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question2/misc/testRequest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/js/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/js/dallE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/js/testRequestGPT3-5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IA/TP4/TP4/Question3/misc/testRequest.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IBM/badge_level1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IBM/rocks1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IBM/rocks2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IBM/rocks3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motivation Ons Hamdi.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/ConsortNT-Locqueneux.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation Atelier9.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation Cegid.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation Cegid.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation NETVIGIE.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation Ons Hamdi.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation Wexperience.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation ntico-technolog.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre de motivation ntico-technology.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Lettre_de_motivation_Ons_Hamdi.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Ons_Hamdi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/Open.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/relance.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lettre de motvation/suivi candidatures.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Microsoft Edge.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Microsoft Edge.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MongoDBCompass.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MongoDBCompass.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Nouveau dossier/bin/bank/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Nouveau dossier/gl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Nouveau dossier/src/bank/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Nouveau dossier/test/bank/BankAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/PremièrePhoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/deuxième photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/logo_udl_blanc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/pasted image 0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/unnamed (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet_gl/unnamed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Rendu_AFSI_DM1_Hamdi_Bivegue_Ngoa_Tarmelit_Kellal.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/Bureau - Raccourci.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/DM2/BPMN_DM2_v2.bpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Q2 DM1.bpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Q3.bpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Rendu_AFSI_DM1_Hamdi_Bivegue_Ngoa_Tarmelit_Kellal/BPMN Q1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Rendu_AFSI_DM1_Hamdi_Bivegue_Ngoa_Tarmelit_Kellal/BPMN Q2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Rendu_AFSI_DM1_Hamdi_Bivegue_Ngoa_Tarmelit_Kellal/BPMN Q3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/Rendu_AFSI_DM1_Hamdi_Bivegue_Ngoa_Tarmelit_Kellal/Rendu_DM1_AFSI.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/exo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/afsi/q1 dm1.bpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pds-fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pf-1-premiers-contacts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pf-2-lsystemes-hamdi-amimeur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pf.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pf_TD.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/pfcorrectiontp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../S5_2021/projet-coo-hamdi-amimeur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Shortcut to VisualCodeGrepper.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TW/ProjectAngular" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TestFX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Visual Studio Code.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Visual Studio Code.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Zoom.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Zoom.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../coo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../droit.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../droit/2020_RGPD.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../droit/Notions initiation au droit.docx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../droit/droit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../droit/iaas-paas-saas-diagram5.1-1638x1046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../entretien.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../erreur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jobété/Ons_Hamdi_CV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../jsfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/css/bpmn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/font/bpmn.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/font/bpmn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/font/bpmn.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/font/bpmn.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/bpmn-font/font/bpmn.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/assets/diagram-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-modeler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-modeler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-navigated-viewer.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-navigated-viewer.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-viewer.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/dist/bpmn-viewer.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/BaseModeler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/BaseViewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/Modeler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/NavigatedViewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/Viewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/draw/BpmnRenderUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/draw/BpmnRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/draw/PathMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/draw/TextRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/draw/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-place/BpmnAutoPlace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-place/BpmnAutoPlaceUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-place/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-resize/BpmnAutoResize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-resize/BpmnAutoResizeProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/auto-resize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/context-pad/ContextPadProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/context-pad/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/copy-paste/BpmnCopyPaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/copy-paste/ModdleCopy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/copy-paste/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/di-ordering/BpmnDiOrdering.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/di-ordering/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/distribute-elements/BpmnDistributeElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/distribute-elements/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/editor-actions/BpmnEditorActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/editor-actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/BpmnGridSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/behavior/AutoPlaceBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/behavior/CreateParticipantBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/behavior/LayoutConnectionBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/behavior/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/grid-snapping/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/interaction-events/BpmnInteractionEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/interaction-events/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/keyboard/BpmnKeyboardBindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/keyboard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/label-editing/LabelEditingPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/label-editing/LabelEditingProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/label-editing/LabelUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/label-editing/cmd/UpdateLabelHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/label-editing/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/BpmnFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/BpmnLayouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/BpmnUpdater.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/ElementFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/Modeling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/AdaptiveLabelPositioningBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/AppendBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/AssociationBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/AttachEventBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/BoundaryEventBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/CreateBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/CreateDataObjectBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/CreateParticipantBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/DataInputAssociationBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/DataStoreBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/DeleteLaneBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/DetachEventBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/DropOnFlowBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/EventBasedGatewayBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/FixHoverBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/GroupBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ImportDockingFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/IsHorizontalFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/LabelBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/MessageFlowBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ModelingFeedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/RemoveElementBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/RemoveParticipantBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ReplaceConnectionBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ReplaceElementBehaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ResizeBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ResizeLaneBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/RootElementReferenceBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/SpaceToolBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/SubProcessStartEventBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/ToggleElementCollapseBehaviour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/UnclaimIdBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/UnsetDefaultFlowBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/UpdateFlowNodeRefsBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/CategoryUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/GeometricUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/LabelLayoutUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/LineAttachmentUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/LineIntersect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/behavior/util/ResizeUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/AddLaneHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/IdClaimHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/ResizeLaneHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/SetColorHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/SplitLaneHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/UpdateCanvasRootHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/UpdateFlowNodeRefsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/UpdateModdlePropertiesHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/UpdatePropertiesHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/cmd/UpdateSemanticParentHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/util/LaneUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/modeling/util/ModelingUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/ordering/BpmnOrderingProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/ordering/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/palette/PaletteProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/palette/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/popup-menu/ReplaceMenuProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/popup-menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/popup-menu/util/TypeUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/replace-preview/BpmnReplacePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/replace-preview/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/replace/BpmnReplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/replace/ReplaceOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/replace/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/rules/BpmnRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/rules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/search/BpmnSearchProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/snapping/BpmnConnectSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/snapping/BpmnCreateMoveSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/snapping/BpmnSnappingUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/features/snapping/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/import/BpmnImporter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/import/BpmnTreeWalker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/import/Importer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/import/Util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/import/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/util/CompatibilityUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/util/DiUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/util/LabelUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/util/ModelUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/lib/util/PoweredByUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/helper/TranslationCollector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/helper/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/matchers/BoundsMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/matchers/ConnectionMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/matchers/JSONMatcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/util/KeyEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/util/MockEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/util/custom-rules/CustomRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-js/test/util/custom-rules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/dist/bpmn-moddle.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/dist/bpmn-moddle.umd.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn-io/json/bioc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/json/bpmn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/json/bpmndi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/json/dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/json/di.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/xsd/BPMN20.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/xsd/BPMNDI.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/xsd/DC.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/xsd/DI.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/bpmn-moddle/resources/bpmn/xsd/Semantic.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/component-event/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/css.escape/LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/css.escape/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/css.escape/css.escape.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/css.escape/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/lib/DirectEditing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/lib/TextBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js-direct-editing/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/assets/diagram-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/Diagram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/command/CommandHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/command/CommandInterceptor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/command/CommandStack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/command/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/Canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/ElementFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/ElementRegistry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/EventBus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/GraphicsFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/draw/BaseRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/draw/DefaultRenderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/draw/Styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/draw/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/align-elements/AlignElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/align-elements/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/attach-support/AttachSupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/attach-support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-place/AutoPlace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-place/AutoPlaceSelectionBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-place/AutoPlaceUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-place/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-resize/AutoResize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-resize/AutoResizeProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-resize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-scroll/AutoScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/auto-scroll/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/BendpointMove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/BendpointMovePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/BendpointSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/BendpointUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/Bendpoints.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/ConnectionSegmentMove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/bendpoints/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/change-support/ChangeSupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/change-support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/clipboard/Clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/clipboard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/connect/Connect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/connect/ConnectPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/connect/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/connection-preview/ConnectionPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/connection-preview/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/context-pad/ContextPad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/context-pad/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/copy-paste/CopyPaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/copy-paste/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/create/Create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/create/CreateConnectPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/create/CreatePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/create/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/distribute-elements/DistributeElements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/distribute-elements/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/dragging/Dragging.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/dragging/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/editor-actions/EditorActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/editor-actions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/global-connect/GlobalConnect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/global-connect/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/GridSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/GridUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/behavior/ResizeBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/behavior/SpaceToolBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/behavior/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/visuals/Grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/grid-snapping/visuals/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/hand-tool/HandTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/hand-tool/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/hover-fix/HoverFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/hover-fix/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/interaction-events/InteractionEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/interaction-events/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard-move-selection/KeyboardMoveSelection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard-move-selection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard/Keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard/KeyboardBindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard/KeyboardUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/keyboard/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/label-support/LabelSupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/label-support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/lasso-tool/LassoTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/lasso-tool/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/Modeling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/AlignElementsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/AppendShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/CreateConnectionHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/CreateElementsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/CreateLabelHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/CreateShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/DeleteConnectionHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/DeleteElementsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/DeleteShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/DistributeElementsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/LayoutConnectionHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/MoveConnectionHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/MoveElementsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/MoveShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/NoopHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/ReconnectConnectionHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/ReplaceShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/ResizeShapeHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/SpaceToolHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/ToggleShapeCollapseHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/UpdateAttachmentHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/UpdateWaypointsHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/helper/AnchorsHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/helper/MoveClosure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/cmd/helper/MoveHelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/modeling/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/mouse/Mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/mouse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/move/Move.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/move/MovePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/move/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/ordering/OrderingProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/outline/Outline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/outline/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/overlays/Overlays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/overlays/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/palette/Palette.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/palette/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/planes/PlanesBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/planes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/popup-menu/PopupMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/popup-menu/PopupMenuProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/popup-menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/preview-support/PreviewSupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/preview-support/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/replace/Replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/replace/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/resize/Resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/resize/ResizeHandles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/resize/ResizePreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/resize/ResizeUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/resize/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/rules/RuleProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/rules/Rules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/rules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/search-pad/SearchPad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/search-pad/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/selection/Selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/selection/SelectionBehavior.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/selection/SelectionVisuals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/selection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/CreateMoveSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/ResizeSnapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/SnapContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/SnapUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/Snapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/snapping/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/space-tool/SpaceTool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/space-tool/SpaceToolPreview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/space-tool/SpaceUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/space-tool/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/tool-manager/ToolManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/tool-manager/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/tooltips/Tooltips.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/tooltips/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/touch/TouchFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/touch/TouchInteractionEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/features/touch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/i18n/I18N.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/i18n/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/i18n/translate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/i18n/translate/translate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/layout/BaseLayouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/layout/ConnectionDocking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/layout/CroppingConnectionDocking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/layout/LayoutUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/layout/ManhattanLayout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/model/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/keyboard-move/KeyboardMove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/keyboard-move/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/movecanvas/MoveCanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/movecanvas/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/touch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/zoomscroll/ZoomScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/zoomscroll/ZoomUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/navigation/zoomscroll/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/AttachUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/ClickTrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Collections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Cursor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Elements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/EscapeUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Geometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/GraphicsUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/IdGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/LineIntersection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/PositionUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Removal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/RenderUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/SvgTransformUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/lib/util/Text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/helper/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/matchers/BoundsMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/matchers/BoundsMatchersSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/matchers/ConnectionMatchers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/matchers/ConnectionMatchersSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/util/KeyEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/diagram-js/test/util/MockEvents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/dist/didi.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/dist/didi.umd.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/didi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/domify/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/domify/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/domify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/domify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/Gruntfile.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/changelog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/hammer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/hammer.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/hammer.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/expose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/hammer.prefix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/hammer.suffix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input/mouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input/pointerevent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input/singletouch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/input/touchmouse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/attribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/pan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/pinch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/press.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/rotate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/recognizers/tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/touchaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/src/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/compute_touch_action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/nested.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/simulator-googlemaps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/simulator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/touchaction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/manual/visual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/blanket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/lodash.compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/assets/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/gestures/test_pan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/gestures/test_pinch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/gestures/test_swipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_enable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_gestures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_hammer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_jquery_plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_multiple_taps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_nested_gesture_recognizers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_propagation_bubble.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_require_failure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_simultaneous_recognition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/hammerjs/tests/unit/test_utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/dist/index.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/ids/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/indexof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/matches-selector/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/index.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/min-dash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/dist/min-dash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dash/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/dist/min-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/dist/min-dom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/min-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/.github/workflows/CI.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/dist/moddle-xml.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/dist/moddle-xml.umd.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle-xml/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/.github/workflows/CI.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/dist/moddle.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/dist/moddle.umd.prod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/moddle/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/lib/collection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/lib/refs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/spec/collectionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/spec/has-property.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/spec/mechanicsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/spec/performanceSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/object-refs/test/spec/refsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/intersect.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/intersect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/path-intersection/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/dist/saxen.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/dist/saxen.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/saxen/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/dist/index.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/dist/tiny-svg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/dist/tiny-svg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node_modules/tiny-svg/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pds-threads" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../peutimport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../photoCV.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../priseDeNotesBD_06_01_22.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../projects/Project_one" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../projet-coo-hamdi-amimeur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../pyramide-de-kelsen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rest-api-nodejs-mongoose-express-es6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../rock-paper-scissors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting java/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting java/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting java/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting java/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../sorting java/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../starship_js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../todolist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../µTorrent.lnk" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2b2WN9jLjRjubaYmnl7lzyPQT7E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/onsha/OneDrive/Bureau/logiciel/ProjectFoot/StatsService/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\onsha\OneDrive\Bureau\logiciel\ProjectFoot\StatsService\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StatsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="StatsService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.StatsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-97de7592" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae753e42-6afb-4ae1-9e9a-ccc9abaca243" name="Changes" comment="" />
+      <created>1705413615438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705413615438</updated>
+      <workItem from="1705413616662" duration="2109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
